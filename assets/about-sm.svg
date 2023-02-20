@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="412.008" height="661.411" viewBox="0 0 412.008 661.411">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.395" y1="0.917" x2="0.397" y2="-0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#10437e"/>
+      <stop offset="1" stop-color="#0c305a"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-1" width="241" height="379" transform="translate(0 0)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.09"/>
+      <stop offset="0.69" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Curve_BG_Wood_Mob" transform="translate(0.008 -720)">
+    <path id="Path_1" data-name="Path 1" class="cls-2" d="M0,0H412l-.009,639.5-412,21.909Z" transform="translate(0 720)"/>
+    <g id="Mask_Group_2" data-name="Mask Group 2" class="cls-3" transform="translate(396 720) rotate(90)">
+      <g id="Group_9" data-name="Group 9" transform="translate(-237 1)">
+        <g id="Group_2095" data-name="Group 2095" transform="translate(0)">
+          <ellipse id="Ellipse_6" data-name="Ellipse 6" class="cls-4" cx="211.5" cy="211" rx="211.5" ry="211" transform="translate(0 0)"/>
+          <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-4" cx="169" cy="169" r="169" transform="translate(42 42)"/>
+          <ellipse id="Ellipse_8" data-name="Ellipse 8" class="cls-4" cx="129.5" cy="129" rx="129.5" ry="129" transform="translate(82 82)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
