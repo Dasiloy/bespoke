@@ -29,11 +29,21 @@
         <!-- Show NavLinks on desktop -->
         <div class="links-container">
           <ul class="links">
-            <li class="link">ABOUT ME</li>
-            <li class="link">ABOUT THE COMPANY</li>
-            <li class="link">PRICING</li>
-            <li class="link">TESTIMONIAL</li>
-            <li class="link">FAQS</li>
+            <li>
+              <a class="link" href="#about-me"> ABOUT ME </a>
+            </li>
+            <li>
+              <a class="link" href="#about-company"> ABOUT THE COMPANY </a>
+            </li>
+            <li>
+              <a class="link" href="#pricing">PRICING</a>
+            </li>
+            <li>
+              <a class="link" href="#testimonials"> TESTIMONIAL</a>
+            </li>
+            <li>
+              <a class="link" href="#faqs"> FAQS </a>
+            </li>
           </ul>
           <div class="nav-bar-button">
             <button class="nav-button">CONTACT ME</button>
@@ -41,13 +51,15 @@
         </div>
 
         <!-- Show toggler icon on mobile-->
-        <div class="toggle-button">a</div>
+        <button class="toggle-button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
     </nav>
     <!-- Base Javascript file -->
 
     <!-- Hero section goes here-->
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="container hero-flex">
         <div class="hero-text-container">
           <h3 class="">
@@ -67,7 +79,7 @@
     </section>
 
     <!-- About section goes here-->
-    <section class="about">
+    <section class="about" id="about-me">
       <!-- TOP PART OF ABOUT -->
       <div class="container about-flex">
         <div class="about-text">
@@ -103,7 +115,7 @@
     </section>
 
     <!-- BOTTOM PART OF ABOUT -->
-    <section class="about-footer">
+    <section class="about-footer" id="about-company">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="rgb(12, 48, 90)"
@@ -149,7 +161,7 @@
     </section>
 
     <!-- Pricing section goes here-->
-    <section class="pricing">
+    <section class="pricing" id="pricing">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -212,42 +224,48 @@
       </div>
     </section>
     <!-- Testimonial section here -->
-    <section class="testimonial">
+    <section class="testimonial" id="testimonials">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="rgb(12, 48, 90)"
           fill-opacity="1"
           d="M0,224L1440,96L1440,0L0,0Z"></path>
       </svg>
-      <div class="container testimonial-flex">
-        <div class="testimonial-img">
-          <img src="./assets//team-3.png" alt="testimonial image" />
+      <div class="container">
+        <h2 class="testimonial-mobile-heading">TESTIMONIAL</h2>
+        <div class="testimonial-illustration">
+          <i class="fa-regular fa-file"></i>
         </div>
-        <div class="testimonial-text">
-          <h2>TESTIMONIAL</h2>
-          <p>
-            Two years later, I had the opportunity to begin training leadership
-            development courses, quickly falling in love with the chance to help
-            others become better leaders. Enjoying countless opportunities to
-            discuss strategic work and provide a much more significant influence
-            to lead others with confidence, I knew that I'd found my true
-            passion in life. My genuine love for leadership development would
-            only continue growing over the years as I worked hard on improving
-            my coaching skills to become a high-energy leader who cares deeply
-            for both people and dogs. Known for challenging convention while
-            honoring diversity and inspiring the change needed to get people to
-            dream big, I believe in bringing big things to the business coaching
-            and career coaching industries. In addition, I've earned a solid
-            reputation for expressing my strong values on feminism,
-            anti-capitalism, anti-racism, dismantling social injustices, and
-            more.
-          </p>
+        <div class="testimonial-flex">
+          <div class="testimonial-img">
+            <img src="./assets//team-3.png" alt="testimonial image" />
+          </div>
+          <div class="testimonial-text">
+            <h2 class="testimonial-desktop-heading">TESTIMONIAL</h2>
+            <p>
+              Two years later, I had the opportunity to begin training
+              leadership development courses, quickly falling in love with the
+              chance to help others become better leaders. Enjoying countless
+              opportunities to discuss strategic work and provide a much more
+              significant influence to lead others with confidence, I knew that
+              I'd found my true passion in life. My genuine love for leadership
+              development would only continue growing over the years as I worked
+              hard on improving my coaching skills to become a high-energy
+              leader who cares deeply for both people and dogs. Known for
+              challenging convention while honoring diversity and inspiring the
+              change needed to get people to dream big, I believe in bringing
+              big things to the business coaching and career coaching
+              industries. In addition, I've earned a solid reputation for
+              expressing my strong values on feminism, anti-capitalism,
+              anti-racism, dismantling social injustices, and more.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- FAQS SECTION -->
-    <section class="faq">
+    <section class="faq" id="faqs">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -255,7 +273,7 @@
           d="M0,224L1440,96L1440,0L0,0Z"></path>
       </svg>
       <div class="container">
-        <div class="faq-flex">
+        <div class="faq-flex faq-desktop">
           <div>''</div>
           <h2 class="faq-title">FAQS</h2>
         </div>
@@ -263,6 +281,9 @@
           <!-- FAQS IMAGE -->
           <div class="faq-img">
             <img src="./assets//faq (3).png" alt="faq image" />
+          </div>
+          <div class="faq-flex-mobile">
+            <h2 class="faq-title">FAQS</h2>
           </div>
           <!-- FAQS LIST -->
           <div class="faq-list">
@@ -377,7 +398,7 @@
     </section>
 
     <!-- CONTACT US SECTION -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="rgb(12, 48, 90)"
@@ -459,7 +480,7 @@
     <div class="contact-bg"></div>
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="footer-group">
           <!-- FOOTER LOGO GROUP -->
@@ -480,27 +501,27 @@
               <ul class="links">
                 <!-- FOOTER  LINK ITEM -->
                 <li class="link">
-                  <a href=""> ABout Me </a>
+                  <a href="#about-me"> ABout Me </a>
                 </li>
                 <!-- FOOTER  LINK ITEM -->
                 <li class="link">
-                  <a href=""> ABout The Company</a>
+                  <a href="#about-company"> ABout The Company</a>
                 </li>
                 <!-- FOOTER  LINK ITEM -->
                 <li class="link">
-                  <a href="">Pricing</a>
+                  <a href="#pricing">Pricing</a>
                 </li>
                 <!-- FOOTER  LINK ITEM -->
                 <li class="link">
-                  <a href=""> Testimonials</a>
+                  <a href="#testimonials"> Testimonials</a>
                 </li>
                 <!-- FOOTER  LINK ITEM -->
                 <li class="link">
-                  <a href=""> FAQS</a>
+                  <a href="#faqs"> FAQS</a>
                 </li>
                 <!-- FOOTER  LINK ITEM -->
                 <li class="link">
-                  <a href=""> Contact Me </a>
+                  <a href="#contact"> Contact Me </a>
                 </li>
               </ul>
               <!-- FOOTER  LINKS -->
